@@ -3,6 +3,6 @@
 # name: defvar
 # key: defvar
 # --
-(defvar ${1:var} ${2:val}${3:
+(defvar *${1:var}*${2: nil}${3:
  "${4:doc}"})
 $0

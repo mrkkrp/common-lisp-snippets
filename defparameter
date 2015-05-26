@@ -3,6 +3,6 @@
 # name: defparameter
 # key: defparameter
 # --
-(defparameter ${1:var} ${2:val}${3:
+(defparameter *${1:var}* ${2:nil}${3:
  "${4:doc}"})
 $0
