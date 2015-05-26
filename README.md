@@ -53,4 +53,27 @@ Full list of snippets (it's ever growing):
 * `mapcar`
 * `mitlic` — MIT License header
 
-Have fun!
+## Contributions
+
+Yes, please contribute! There are some stylistic conventions:
+
+1. Name files without any extensions;
+
+2. Start every file with this preamble:
+
+   ```
+   # -*- mode: snippet -*-
+   # contributor: your name
+   # name: readable name of the snippet
+   # key: what user needs to enter
+   # --
+   ```
+
+   The first line is needed to activate mode for snippet editing in Emacs,
+   Yasnippet ships with it.
+
+3. Make sure your files don't have empty line at the end. This is important,
+   because it will be inserted too, when your snippet is
+   expanded. `snippet-mode` takes care of this, setting
+   `require-finall-newline` to `nil`, just make sure I haven't put it there
+   manually.
