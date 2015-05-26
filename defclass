@@ -4,5 +4,5 @@
 # key: defclass
 # --
 (defclass ${1:class} (${2:parents})
-  ($0)
-  ${3:(:documentation "${4:doc}")})
+  ($0)${3:
+  (:documentation "${4:doc}")})
