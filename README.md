@@ -6,7 +6,7 @@ have Yasnippet installed, just clone this repository into your local
 `snippet` directory:
 
 ```
-git clone http://github.com/mrkkrp/common-lisp-snippets ~/.emacs.d/snippets/lisp-mode
+git clone https://github.com/mrkkrp/common-lisp-snippets.git ~/.emacs.d/snippets/lisp-mode
 ```
 
 Restart Emacs or execute command `yas-reload-all`, like this: <kbd>M-x
