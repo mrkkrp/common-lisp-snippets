@@ -73,7 +73,7 @@ Yes, please contribute! There are some stylistic conventions:
    Yasnippet ships with it.
 
 3. Make sure your files don't have empty line at the end. This is important,
-   because it will be inserted too, when your snippet is
+   because it will be inserted too when your snippet is
    expanded. `snippet-mode` takes care of this, setting
-   `require-finall-newline` to `nil`, just make sure I haven't put it there
-   manually.
+   `require-finall-newline` to `nil`, just make sure you haven't put it
+   there manually.
