@@ -30,28 +30,12 @@ defsystem
 ```
 
 …you can move through the fields pressing <kbd>↹ Tab</kbd> and edit or
-delete them, some fields, like `:author` try to guess their values.
+delete them, some fields, like `:author` try to guess their values. Snippets
+are especially useful when learning some language.
 
 As a special bonus, there are snippets to insert headers of files that
-contain information about the software license, they are smart too.
-
-Full list of snippets (it's ever growing):
-
-* `defclass`
-* `defgeneric`
-* `defmacro`
-* `defmethod`
-* `defpackage`
-* `defparameter`
-* `defsystem`
-* `defun`
-* `defvar`
-* `dolist`
-* `format`
-* `gnugpl` — GNU GPL 3 header
-* `in-package`
-* `mapcar`
-* `mitlic` — MIT License header
+contain information about the software license (`gnugpl` and `mitlic`), they
+are smart too.
 
 ## Contributions
 
