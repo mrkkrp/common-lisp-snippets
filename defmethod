@@ -3,5 +3,5 @@
 # name: defmethod
 # key: defmethod
 # --
-(defmethod ${1:fun} (${2:args})
+(defmethod ${1:name} (${2:args})
   $0)

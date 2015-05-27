@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
 # contributor: Mark Karpov
-# name: defun
-# key: defun
+# name: deftype
+# key: deftype
 # --
-(defun ${1:name} (${2:args})${3:
+(deftype ${1:name} (${2:args})${3:
   "${4:doc}"}
   $0)
