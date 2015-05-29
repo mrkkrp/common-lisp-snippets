@@ -1,16 +1,21 @@
 # Yasnippets for Common Lisp
 
+This is a collection of Yasnippets for Common Lisp. It mainly includes
+snippets for top-level forms and (as a bonus) headers for popular
+free-software licenses: GNU GPL and MIT License.
+
+## Installation
+
 To use these snippets you need to install
 [Yasnippet](https://github.com/capitaomorte/yasnippet) package. Once you
-have Yasnippet installed, just clone this repository into your local
-`snippet` directory:
+have Yasnippet installed, place contents of this repository on your load
+path, so Emacs can see it and add the following to your configuration file:
 
 ```
-git clone https://github.com/mrkkrp/common-lisp-snippets.git ~/.emacs.d/snippets/lisp-mode
+(require 'common-lisp-snippets)
 ```
 
-Restart Emacs or execute command `yas-reload-all`, like this: <kbd>M-x
-yas-reload-all</kbd>.
+## Usage
 
 To insert a snippet, type its name and press <kbd>↹ Tab</kbd> or
 <kbd>C-i</kbd>, for example:
@@ -30,8 +35,8 @@ defsystem
 ```
 
 …you can move through the fields pressing <kbd>↹ Tab</kbd> and edit or
-delete them, some fields, like `:author` try to guess their values. Snippets
-are especially useful when learning some language.
+delete them, some fields, like `:author` try to guess their values. Also,
+snippets are especially useful when learning some language ;-)
 
 As a special bonus, there are snippets to insert headers of files that
 contain information about the software license (`gnugpl` and `mitlic`), they
@@ -61,3 +66,9 @@ Yes, please contribute! There are some stylistic conventions:
    expanded. `snippet-mode` takes care of this, setting
    `require-finall-newline` to `nil`, just make sure you haven't put it
    there manually.
+
+## License
+
+Copyright © 2015 Mark Karpov
+
+Distributed under GNU GPL, version 3.
