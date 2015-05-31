@@ -1,5 +1,8 @@
 # Yasnippets for Common Lisp
 
+[![License GPL 3](https://img.shields.io/badge/license-GPL_3-green.svg)](http://www.gnu.org/licenses/gpl-3.0.txt)
+[![MELPA](http://melpa.org/packages/common-lisp-snippets-badge.svg)](http://melpa.org/#/common-lisp-snippets)
+
 This is a collection of Yasnippets for Common Lisp. It mainly includes
 snippets for top-level forms and (as a bonus) headers for popular
 free-software licenses: GNU GPL and MIT License.
