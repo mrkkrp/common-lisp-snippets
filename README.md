@@ -18,6 +18,9 @@ path, so Emacs can see it and add the following to your configuration file:
 (require 'common-lisp-snippets)
 ```
 
+It's now available via MELPA: <kbd>M-x package-install RET
+common-lisp-snippets RET</kbd> — and you are done!
+
 ## Usage
 
 To insert a snippet, type its name and press <kbd>↹ Tab</kbd> or
