@@ -70,7 +70,7 @@ Yes, please contribute! There are some stylistic conventions:
 3. Make sure your files don't have empty line at the end. This is important,
    because it will be inserted too when your snippet is
    expanded. `snippet-mode` takes care of this, setting
-   `require-finall-newline` to `nil`, just make sure you haven't put it
+   `require-final-newline` to `nil`, just make sure you haven't put it
    there manually.
 
 ## License
