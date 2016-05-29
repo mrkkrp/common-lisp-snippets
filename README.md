@@ -2,6 +2,7 @@
 
 [![License GPL 3](https://img.shields.io/badge/license-GPL_3-green.svg)](http://www.gnu.org/licenses/gpl-3.0.txt)
 [![MELPA](https://melpa.org/packages/common-lisp-snippets-badge.svg)](https://melpa.org/#/common-lisp-snippets)
+[![Build Status](https://travis-ci.org/mrkkrp/common-lisp-snippets.svg?branch=master)](https://travis-ci.org/mrkkrp/common-lisp-snippets)
 
 This is a collection of Yasnippets for Common Lisp. It mainly includes
 snippets for top-level forms and (as a bonus) headers for popular
