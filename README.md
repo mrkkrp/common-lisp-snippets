@@ -76,6 +76,6 @@ Yes, please contribute! There are some stylistic conventions:
 
 ## License
 
-Copyright © 2015 Mark Karpov
+Copyright © 2015–2017 Mark Karpov
 
 Distributed under GNU GPL, version 3.
