@@ -4,7 +4,7 @@
 ;;
 ;; Author: Mark Karpov <markkarpov92@gmail.com>
 ;; URL: https://github.com/mrkkrp/common-lisp-snippets
-;; Version: 0.1.0
+;; Version: 0.1.2
 ;; Package-Requires: ((yasnippet "0.8.0"))
 ;; Keywords: snippets
 ;;
