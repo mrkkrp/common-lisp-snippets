@@ -1,8 +1,8 @@
 ;;; common-lisp-snippets.el --- Yasnippets for Common Lisp -*- lexical-binding: t; -*-
 ;;
-;; Copyright © 2015–2017 Mark Karpov <markkarpov@openmailbox.org>
+;; Copyright © 2015–2017 Mark Karpov <markkarpov92@gmail.com>
 ;;
-;; Author: Mark Karpov <markkarpov@openmailbox.org>
+;; Author: Mark Karpov <markkarpov92@gmail.com>
 ;; URL: https://github.com/mrkkrp/common-lisp-snippets
 ;; Version: 0.1.0
 ;; Package-Requires: ((yasnippet "0.8.0"))
