@@ -4,23 +4,23 @@
 [![MELPA](https://melpa.org/packages/common-lisp-snippets-badge.svg)](https://melpa.org/#/common-lisp-snippets)
 [![Build Status](https://travis-ci.org/mrkkrp/common-lisp-snippets.svg?branch=master)](https://travis-ci.org/mrkkrp/common-lisp-snippets)
 
-This is a collection of Yasnippets for Common Lisp. It mainly includes
-snippets for top-level forms and (as a bonus) headers for popular
-free-software licenses: GNU GPL and MIT License.
+This is a collection of Yasnippets for Common Lisp. It includes snippets for
+top-level forms and (as a bonus) headers for popular free-software licenses:
+GNU GPL and MIT License.
 
 ## Installation
 
 To use these snippets you need to install
-[Yasnippet](https://github.com/capitaomorte/yasnippet) package. Once you
+the [Yasnippet](https://github.com/capitaomorte/yasnippet) package. Once you
 have Yasnippet installed, place contents of this repository on your load
 path, so Emacs can see it and add the following to your configuration file:
 
-```
+```emacs-lisp
 (require 'common-lisp-snippets)
 ```
 
 It's now available via MELPA: <kbd>M-x package-install RET
-common-lisp-snippets RET</kbd> — and you are done!
+common-lisp-snippets RET</kbd>—and you are done!
 
 ## Usage
 
@@ -42,8 +42,7 @@ defsystem
 ```
 
 …you can move through the fields pressing <kbd>↹ Tab</kbd> and edit or
-delete them, some fields, like `:author` try to guess their values. Also,
-snippets are especially useful when learning some language ;-)
+delete them. Some fields, like `:author` try to guess their values.
 
 As a special bonus, there are snippets to insert headers of files that
 contain information about the software license (`gnugpl` and `mitlic`), they
@@ -51,28 +50,27 @@ are smart too.
 
 ## Contributions
 
-Yes, please contribute! There are some stylistic conventions:
+There are some stylistic conventions:
 
-1. Name files without any extensions;
+* Name files without extensions.
 
-2. Start every file with this preamble:
+* Start every file with this preamble:
 
-   ```
-   # -*- mode: snippet -*-
-   # contributor: your name
-   # name: readable name of the snippet
-   # key: what user needs to enter
-   # --
-   ```
+  ```
+  # -*- mode: snippet -*-
+  # contributor: your name
+  # name: readable name of the snippet
+  # key: what user needs to enter
+  # --
+  ```
 
-   The first line is needed to activate mode for snippet editing in Emacs,
-   Yasnippet ships with it.
+  The first line is needed to activate mode for snippet editing in Emacs,
+  Yasnippet ships with it.
 
-3. Make sure your files don't have empty line at the end. This is important,
-   because it will be inserted too when your snippet is
-   expanded. `snippet-mode` takes care of this, setting
-   `require-final-newline` to `nil`, just make sure you haven't put it
-   there manually.
+* Make sure your files don't have an empty line at the end. This is
+  important, because it will be inserted when your snippet is expanded.
+  `snippet-mode` takes care of this, setting `require-final-newline` to
+  `nil`, just make sure you haven't put it there manually.
 
 ## License
 
